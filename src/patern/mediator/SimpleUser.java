@@ -1,4 +1,4 @@
-package patern.Mediator;
+package patern.mediator;
 
 public class SimpleUser implements User{
     Chat chat;

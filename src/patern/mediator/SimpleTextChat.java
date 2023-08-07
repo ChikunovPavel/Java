@@ -1,4 +1,4 @@
-package patern.Mediator;
+package patern.mediator;
 
 import java.util.ArrayList;
 import java.util.List;

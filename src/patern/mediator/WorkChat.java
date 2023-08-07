@@ -1,4 +1,4 @@
-package patern.Mediator;
+package patern.mediator;
 
 public class WorkChat {
     public static void main(String[] args) {

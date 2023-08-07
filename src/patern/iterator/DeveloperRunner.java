@@ -1,4 +1,4 @@
-package patern.Iterator;
+package patern.iterator;
 
 public class DeveloperRunner {
     public static void main(String[] args) {

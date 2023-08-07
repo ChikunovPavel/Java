@@ -1,4 +1,4 @@
-package patern.Singleton;
+package patern.singleton;
 
 
     class Singleton {

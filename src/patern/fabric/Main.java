@@ -1,4 +1,4 @@
-package patern.Fabric;
+package patern.fabric;
 
 //интерфейс для продукта
 interface Product {

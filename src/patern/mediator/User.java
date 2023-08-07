@@ -1,4 +1,4 @@
-package patern.Mediator;
+package patern.mediator;
 
 public interface User {
     public void sendMessage(String message);

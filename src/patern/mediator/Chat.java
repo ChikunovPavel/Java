@@ -1,4 +1,4 @@
-package patern.Mediator;
+package patern.mediator;
 
 public interface Chat {
     public void sendMessage(String message, User user);

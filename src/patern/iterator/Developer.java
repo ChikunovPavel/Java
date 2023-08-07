@@ -1,4 +1,4 @@
-package patern.Iterator;
+package patern.iterator;
 
 public class Developer implements Collection {
     private String name;

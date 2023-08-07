@@ -1,4 +1,4 @@
-package patern.Iterator;
+package patern.iterator;
 
 public interface Iterator {
     //возврашает true или false наличия следующего  обьекта в коллекции

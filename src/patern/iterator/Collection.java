@@ -1,4 +1,4 @@
-package patern.Iterator;
+package patern.iterator;
 
 public interface Collection {
 //    возвращает Iterator

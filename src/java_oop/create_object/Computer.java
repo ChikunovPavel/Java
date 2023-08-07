@@ -6,10 +6,11 @@ public class Computer {
     private int ram;
     private int hdd;
     private double weight;
-    //констурктор
+    //конструктор
     public Computer(){
-       on(); // метод который будет автоматический загужаться при создании обоъекта
-    };
+        System.out.println("Computer: конструктор");
+        // метод который будет автоматический загужаться при создании обоъекта
+    }
 
 //    public Computer(String name,int ram,int hdd,double weight){
 //        this.name = name;
@@ -68,7 +69,7 @@ public class Computer {
     }
 
     // икапсуляция System.out.printl()
-    private void print(String str){
+    protected void print(String str){
         System.out.println(str);
     }
 }
