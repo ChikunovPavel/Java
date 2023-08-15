@@ -6,10 +6,11 @@ public class Computer {
     private int ram;
     private int hdd;
     private double weight;
+
+    private CDrom cdrom;
     //конструктор
     public Computer(){
-        System.out.println("Computer: конструктор");
-        // метод который будет автоматический загужаться при создании обоъекта
+        // метод, который будет автоматический загружаться при создании объекта
     }
 
 //    public Computer(String name,int ram,int hdd,double weight){
@@ -69,7 +70,14 @@ public class Computer {
     }
 
     // икапсуляция System.out.printl()
-    protected void print(String str){
+     public static void print(String str){
         System.out.println(str);
     }
+
+    public void writeCD(){
+        if( cdrom == null) cdrom = new CDrom();
+        cdrom.writeCD();
+    }
+
+
 }

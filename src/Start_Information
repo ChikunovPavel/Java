@@ -1,0 +1,24 @@
+Языки делятся на 3 вида
+
+1 Script(python,)
+txt
+
+2 VM (java,c#)
+bytecode -> VM -> native
+
+    java
+        src -> bytecode -> native
+    java SE - набор библиотек
+    java EE - веб разработка
+    java ME - мобильные девайсы
+
+3 NATIVE (C, C++, GO)
+exe
+
+Компиляция - это
+компилятор
+
+Интерпритация - это
+интерпритатор
+
+

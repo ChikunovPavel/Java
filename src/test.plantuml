@@ -1,0 +1,14 @@
+
+@startuml
+class Product {
+  -String data
+  -void methods()
+}
+
+class Flight {
+   +flightNumber : Integer
+   +departureTime : Date
+}
+
+@enduml
+//https://plantuml.com/ru/use-case-diagram
