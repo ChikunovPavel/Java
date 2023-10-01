@@ -5,9 +5,10 @@ import java_oop.create_object.Computer;
 public class Main {
     public static void main(String[] args) {
 
+
         Computer.print("hello");
         Computer comp = new Computer();
-        comp.print("world");
+        comp.reboot(false);
         comp.writeCD();
 
 //        Tohsiba tohsiba = new ToshibaModel1();

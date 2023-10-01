@@ -80,4 +80,12 @@ public class Computer {
     }
 
 
+    public void reboot(boolean safeMode){
+        print("This is PC rebooting safeMode");
+        reboot();
+
+    }
+
+
+
 }
