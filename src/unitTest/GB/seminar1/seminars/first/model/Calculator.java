@@ -1,6 +1,30 @@
 package unitTest.GB.seminar1.seminars.first.model;
 
+import java.util.Scanner;
+
 public class Calculator {
+    private static final Scanner scanner = new Scanner(System.in);
+
+    public static void main(String[] args) {
+        int firstiOperand = getOperand();
+        int secondOpreand = getOperand();
+        char operator = getOperation();
+        int result = calculation(firstiOperand,secondOpreand,operator);
+        System.out.println("Результат выполнение операции" + result);
+    }
+    public static char getOperation(){
+        System.out.println("Введите операцию");
+        char operation = scanner.next().charAt(0);
+        return operation;
+    }
+    public static int getOperand(){
+        System.out.println("Введите операнд");
+        int operand = scanner.nextInt();
+        return operand;
+    }
+
+
+
     public static int calculation(int firstOperand, int secondOperand, char operator) {
         int result;
 
