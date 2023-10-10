@@ -12,8 +12,8 @@ package coreLevel2.Introduction.practice;
 
 public class TimeIntervalRuner {
     public static void main(String[] args) {
-        TimeInterval timeInterval = new TimeInterval(30,2,1);
-        System.out.println(timeInterval.totalSeconds());
+        TimeInterval timeInterval = createTimeInterval();
+
 
         TimeInterval timeInterval1 = new TimeInterval(timeInterval.totalSeconds());
         System.out.println(timeInterval1.totalSeconds());
@@ -22,5 +22,14 @@ public class TimeIntervalRuner {
         TimeInterval sumInterval = timeInterval.sum(timeInterval1);
         sumInterval.print();
 
+        createTimeInterval();
+
     }
+
+    private static TimeInterval createTimeInterval() {
+        TimeInterval timeInterval = new TimeInterval(30, 2, 1);
+        System.out.println(timeInterval.totalSeconds());
+        return timeInterval;
+    }
+
 }

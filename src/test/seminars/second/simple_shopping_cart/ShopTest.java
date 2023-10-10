@@ -2,9 +2,9 @@ package seminars.second.simple_shopping_cart;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import unitTest.GB.seminars2.second.model.Cart;
-import unitTest.GB.seminars2.second.model.Product;
-import unitTest.GB.seminars2.second.model.Shop;
+import unitTest.GB.seminars.second.model.Cart;
+import unitTest.GB.seminars.second.model.Product;
+import unitTest.GB.seminars.second.model.Shop;
 
 import java.io.ByteArrayOutputStream;
 import java.util.ArrayList;

@@ -1,6 +1,6 @@
-package unitTest.GB.seminars2.first;
+package unitTest.GB.seminars.first;
 
-import unitTest.GB.seminars2.first.model.Calculator;
+import unitTest.GB.seminars.first.model.Calculator;
 
 import static org.assertj.core.api.Assertions.*;
 import static org.assertj.core.api.Assertions.assertThat;

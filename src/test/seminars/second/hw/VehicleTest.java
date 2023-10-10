@@ -1,9 +1,9 @@
 package seminars.second.hw;
 
 import org.junit.jupiter.api.Test;
-import unitTest.GB.seminars2.second.hw.Car;
-import unitTest.GB.seminars2.second.hw.Motorcycle;
-import unitTest.GB.seminars2.second.hw.Vehicle;
+import unitTest.GB.seminars.second.hw.Car;
+import unitTest.GB.seminars.second.hw.Motorcycle;
+import unitTest.GB.seminars.second.hw.Vehicle;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.junit.jupiter.api.Assertions.*;
 

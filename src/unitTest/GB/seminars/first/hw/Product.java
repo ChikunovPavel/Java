@@ -1,4 +1,4 @@
-package unitTest.GB.seminars2.first.hw;
+package unitTest.GB.seminars.first.hw;
 
 public class Product implements Comparable<Product> {
     private Integer cost;

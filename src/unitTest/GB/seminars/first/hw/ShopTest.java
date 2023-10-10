@@ -1,4 +1,4 @@
-package unitTest.GB.seminars2.first.hw;
+package unitTest.GB.seminars.first.hw;
 
 import java.util.ArrayList;
 import java.util.Collections;

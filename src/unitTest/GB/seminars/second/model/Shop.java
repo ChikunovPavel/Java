@@ -1,4 +1,4 @@
-package unitTest.GB.seminars2.second.model;
+package unitTest.GB.seminars.second.model;
 
 import java.util.List;
 

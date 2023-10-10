@@ -1,4 +1,4 @@
-package unitTest.GB.seminars2.second.hw;
+package unitTest.GB.seminars.second.hw;
 
 public class Motorcycle extends Vehicle {
     private String company;

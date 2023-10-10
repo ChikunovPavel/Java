@@ -1,8 +1,8 @@
-package unitTest.GB.seminars2.second;
+package unitTest.GB.seminars.second;
 
-import unitTest.GB.seminars2.second.model.Product;
-import unitTest.GB.seminars2.second.model.Shop;
-import unitTest.GB.seminars2.second.model.TextUserInterface;
+import unitTest.GB.seminars.second.model.Product;
+import unitTest.GB.seminars.second.model.Shop;
+import unitTest.GB.seminars.second.model.TextUserInterface;
 
 import java.util.ArrayList;
 import java.util.List;
