@@ -1,0 +1,31 @@
+String - это массив байтов.inytebel  - неизменяемый обьект.
+    1)charAt(int index) - возрашает символ находяшийся по введенному индексу
+    2)сompareTo(String anotherString) - сравнивает строки с друг другом, возврашает int. (похож на Equals)
+            -compareToIgnoreCase(String str) сравение строк , игнорирует регистр
+    3)concat(String str) -    сложивает строки
+    4)contains(CharSequence s) - проверяет есть ли переданная подстрока
+    5)endsWith(String suffix)  - проверяет заканчиваеться ли строка переданной подстрокой
+    6)equals(Object anObject) - метод для сравнения строк
+                equalsIgnoreCase(String anotherString) - так же, но игнорирут регистр
+    7)format(Locale l, String format, Object... args)  - более удобный вариант вывода строки , чем конкотинация строк
+    8)getBytes() - для получения масива байт
+    9)indexOf(int ch) - возврашает интдекс строки
+        listIndexOf(int ch) - возврашает последний интдекс строки
+    10)isBlank() -  проверяет не пустая ли строка ,игнорирует табуляцию или пробелы
+    11)isEmpty() - проверяет не пустая ли строка
+    12)join(CharSequence delimiter, CharSequence... elements) - для того чтоб соеденить масивы строк , которая соеденена делиметром
+    13)length() - возврашает длину строки
+    14) - Stream<String> lines() -- возврашает
+    15)matches(String regex)
+    16)replace(char oldChar, char newChar) - если хотим заметить один символ на другой
+    17)split(String regex) - уберает ненужные делители
+    18)startsWith(String prefix) - елси нужно найти строку по префексу
+    19)substring(int beginIndex) - если нужно взять от  и до символа
+    20)toCharArray() - вернуть строку в виде масива строк
+    21)trim() - удаляет все пробелные символы
+    22)valueOf(boolean b) - преврашает в строки любой обьект
+    23)toUpperCase() - возвращает букву в Верхнем регистре
+
+
+
+
